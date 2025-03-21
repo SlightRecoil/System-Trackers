@@ -106,15 +106,19 @@ format_bytes() {
 # Display usage information
 echo "Internet Usage Report ($(date +"%Y-%m-%d %H:%M:%S"))"
 echo "----------------------------------------------------"
+# "Current session" means the total usage since last restart, as macOS clears
+# internet usage after a restart, which is the reason I even made this script.
 echo "Current session:"
 echo "  Received: $(format_bytes $BYTES_IN)"
 echo "  Sent:     $(format_bytes $BYTES_OUT)"
 echo
+# "Since last check" displays the usage since the last time the script was run.
 echo "Since last check:"
 echo "  Received: $(format_bytes $DIFF_BYTES_IN)"
 echo "  Sent:     $(format_bytes $DIFF_BYTES_OUT)"
 echo
-echo "Total usage (including previous restarts):"
+# "Total usage" displays the total internet usage including previous sessions,
+echo "Total usage:"
 echo "  Received: $(format_bytes $NEW_TOTAL_IN)"
 echo "  Sent:     $(format_bytes $NEW_TOTAL_OUT)"
 echo
