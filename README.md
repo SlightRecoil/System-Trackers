@@ -27,3 +27,13 @@ SwiftBar plugins should be placed in the appropriate directory (~/Library/Applic
 
 ## AI Support
   I've used claude.ai to assist with learning and commentation/documentation, as well as automating boring and repetitive tasks.
+
+## Lessions Learned
+	•	Learned about creating, saving, and pulling data from json files
+	•	Learned about how macOS stores data usage
+	•	Learned ALOT about bash.
+
+ ## Examples
+
+### Network tracker as a Swiftbar addon
+<img width="327" alt="Screenshot 2025-03-21 at 20 57 55" src="https://github.com/user-attachments/assets/72a35ab8-92d3-429f-9c43-62038f5589d8" />
