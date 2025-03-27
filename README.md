@@ -37,3 +37,6 @@ SwiftBar plugins should be placed in the appropriate directory (~/Library/Applic
 
 ### Network tracker as a Swiftbar addon
 <img width="327" alt="Screenshot 2025-03-21 at 20 57 55" src="https://github.com/user-attachments/assets/72a35ab8-92d3-429f-9c43-62038f5589d8" />
+
+## Known Issues
+If both the internet usage script and internet usage plugin save to the same log file, something breaks and usage is no longer logged.
