@@ -40,3 +40,4 @@ SwiftBar plugins should be placed in the appropriate directory (~/Library/Applic
 
 ## Known Issues
 If both the internet usage script and internet usage plugin save to the same log file, something breaks and usage is no longer logged.
+When Swiftbar is started without an internet connection, the Internet Usage Tracker refers to the backup log instead of the main one.
